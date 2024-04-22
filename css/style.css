@@ -190,6 +190,20 @@ header nav {
 
 /* Mobile */
 
+@media (min-width: 330px) {
+  #main-content {
+    padding: 5rem;
+  }
+
+  #main-content #subtitle {
+    font-size: 4rem;
+  }
+
+  #product-image {
+    max-width: 60%;
+    width: 300px;
+  }
+}
 @media (max-width: 767px) {
   #navbar li {
     display: none;
@@ -219,6 +233,7 @@ header nav {
 
   #product-image {
     width: 100%;
+    width: 600px;
   }
 }
 
@@ -233,6 +248,7 @@ header nav {
 
   #product-image {
     max-width: 80%;
+    width: 600px;
   }
 }
 
@@ -247,5 +263,21 @@ header nav {
 
   #product-image {
     max-width: 60%;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1100px) {
+  #main-content {
+    padding: 5rem;
+  }
+
+  #main-content #subtitle {
+    font-size: 4rem;
+  }
+
+  #product-image {
+    max-width: 60%;
+    width: 1000px;
   }
 }
